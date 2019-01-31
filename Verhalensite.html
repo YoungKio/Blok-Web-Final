@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Verhalenwebsite</title>
+    <link rel="stylesheet" href="css/verhalen.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Bron van de rating sterren -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+    <!-- Dit is de header met de navigatie -->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="Verhalensite.html">
+                        <img src="Eurostarlogo.png" alt="Eurostar Logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="verhaal.html"><img src="download1.png" id="iconD" alt="1"></a>
+                </li>
+                <li>
+                    <a href="Inloggen.html"><img src="profile1.png" alt="2"></a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+
+
+
+        <input type="text" placeholder="Zoek een verhaal...">
+
+
+    </header>
+
+
+
+
+
+
+
+
+    <main>
+        <!-- Aanbevolen verhaal -->
+        <div>
+
+            <section>
+                <h1> De 99 Verhalen</h1>
+                <h2> Zoek, vind en lees jouw favoriete verhalen!</h2>
+
+
+
+
+                <article>
+                    <h3> Aanbevolen verhaal:</h3>
+                    <h5> Zombie (#89)</h5>
+                    <p> Genre: Horror</p>
+                    <p> Tijdsduur: Ca. 15min</p>
+                    <p> Rating: </p>
+                    <div><span></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <img src="Zombie.png" alt="verhaal: zombie">
+                    <img src="download1.png" onclick="mijnAnimatie()" alt="downloadIcoon2">
+                </article>
+            </section>
+
+        </div>
+
+
+
+
+
+
+        <!-- Sorteer en filterknop -->
+        <aside>
+            <button id="filters">Sort & Filter</button>
+            <div id="filterScherm">
+                <div>
+                    <span id="kruisje">&times;</span>
+                    <form action="Verhalensite.html" name="filters">
+                        <fieldset>
+                            
+                            <fieldset>
+                                <legend>Genre:</legend>
+                                <label><input type="checkbox" name="genre" value="bekende namen" checked>Horror (6)</label>
+                           
+
+                                <label>
+                                    <input type="checkbox" name="genre" value="Opinie">Autobiografie (15) </label>
+
+                                <label>
+                                    <input type="checkbox" name="genre" value="Humor">
+                                    Humor(9) </label>
+
+                                <label>
+                                    <input type="checkbox" name="genre" value="sport">
+                                    Sport (7)</label>
+
+                                <label>
+                                    <input type="checkbox" name="genre" value="drama">
+                                    Drama (21)</label>
+                                <label>
+                                    <input type="checkbox" name="genre" value="fantasie">
+                                    Fantasie (18)</label>
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>Lengte:</legend>
+                            <label for="rood"> (1 - 5min) (5 - 10min) (10+min)</label>
+                                <input type="range"  name="duur" value="">
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>Sorteren:</legend>
+                                <select>
+  <option value="Beste Recensies">Beste Recensies</option>
+  <option value="Naam (A-Z)">Naam (A-Z)</option>
+  <option value="Naam (Z-A)">Naam (Z-A)</option>
+  <option value="Verhaalduur (Kort-Lang)">Verhaalduur (Kort-Lang)</option>
+  <option value="Verhaalduur (Lang-Kort)">Verhaalduur (Lang-Kort)</option>
+</select>
+                            </fieldset>
+                        </fieldset>
+                        <fieldset>
+                        <input type="submit" value="Filters Toepassen">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </aside>
+
+
+
+
+
+        <!-- Overige verhalen -->
+        <section>
+
+
+            <h4> Zoekresultaten:</h4>
+
+
+            <article>
+                <h5> Zombie (#89)</h5>
+                <p> Genre: Horror</p>
+                <p> Tijdsduur: Ca. 15min</p>
+                <p> Rating: </p>
+                <div><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="Zombie.png" alt="verhaal: zombie">
+                <img src="download1.png" onclick="mijnAnimatie()" alt="downloadIcoon2">
+            </article>
+
+            <article>
+                <h5> Zombie (#89)</h5>
+                <p> Genre: Horror</p>
+                <p> Tijdsduur: Ca. 15min</p>
+                <p> Rating: </p>
+                <div><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="Zombie.png" alt="verhaal: zombie">
+                <img src="download1.png" onclick="mijnAnimatie()" alt="downloadIcoon2">
+            </article>
+
+            <article>
+                <h5> Zombie (#89)</h5>
+                <p> Genre: Horror</p>
+                <p> Tijdsduur: Ca. 15min</p>
+                <p> Rating: </p>
+                <div><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="Zombie.png" alt="verhaal: zombie">
+                <img src="download1.png" onclick="mijnAnimatie()" alt="downloadIcoon2">
+            </article>
+
+            <article>
+                <h5> Zombie (#89)</h5>
+                <p> Genre: Horror</p>
+                <p> Tijdsduur: Ca. 15min</p>
+                <p> Rating: </p>
+                <div><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="Zombie.png" alt="verhaal: zombie">
+                <img src="download1.png" onclick="mijnAnimatie()" alt="downloadIcoon2">
+            </article>
+
+            <article>
+                <h5> Zombie (#89)</h5>
+                <p> Genre: Horror</p>
+                <p> Tijdsduur: Ca. 15min</p>
+                <p> Rating: </p>
+                <div><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="Zombie.png" alt="verhaal: zombie">
+                <img src="download1.png" onclick="mijnAnimatie()" alt="downloadIcoon2">
+            </article>
+
+            <article>
+                <h5> Zombie (#89)</h5>
+                <p> Genre: Horror</p>
+                <p> Tijdsduur: Ca. 15min</p>
+                <p> Rating: </p>
+                <div><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="Zombie.png" alt="verhaal: zombie">
+                <img src="download1.png" onclick="mijnAnimatie()" alt="downloadIcoon2">
+            </article>
+
+            <article>
+                <h5> Zombie (#89)</h5>
+                <p> Genre: Horror</p>
+                <p> Tijdsduur: Ca. 15min</p>
+                <p> Rating: </p>
+                <div><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="Zombie.png" alt="verhaal: zombie">
+                <img src="download1.png" onclick="mijnAnimatie()" alt="downloadIcoon2">
+            </article>
+
+            <article>
+                <h5> Zombie (#89)</h5>
+                <p> Genre: Horror</p>
+                <p> Tijdsduur: Ca. 15min</p>
+                <p> Rating: </p>
+                <div><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="Zombie.png" alt="verhaal: zombie">
+                <img src="download1.png" onclick="mijnAnimatie()" alt="downloadIcoon2">
+            </article>
+
+            <article>
+                <h5> Zombie (#89)</h5>
+                <p> Genre: Horror</p>
+                <p> Tijdsduur: Ca. 15min</p>
+                <p> Rating: </p>
+                <div><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="Zombie.png" alt="verhaal: zombie">
+                <img src="download1.png" onclick="mijnAnimatie()" alt="downloadIcoon2">
+            </article>
+
+            <article>
+                <h5> Zombie (#89)</h5>
+                <p> Genre: Horror</p>
+                <p> Tijdsduur: Ca. 15min</p>
+                <p> Rating: </p>
+                <div><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="Zombie.png" alt="verhaal: zombie">
+                <img src="download1.png" onclick="mijnAnimatie()" alt="downloadIcoon2">
+            </article>
+
+
+
+
+
+
+        </section>
+
+
+
+
+    </main>
+    <footer>
+        <p>Eurostar©</p>
+    </footer>
+    <script src="js/verhalenwebsite.js"></script>
+
+</body>
+
+
+
+</html>

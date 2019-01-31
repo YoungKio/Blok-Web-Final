@@ -1,0 +1,544 @@
+@font-face {
+   font-family: 'base';
+   src: url(fonts/Base.tff) format('truetype');
+}
+
+
+
+
+body {
+    background-color: #F2F2F2;
+    font-family: Avenir, Arial, sans-serif;
+}
+
+div section{
+    background-color: azure;
+    background-image: url("Achtergrond.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 4em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    padding-bottom: 10em;
+    -webkit-box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
+
+div article {
+    background-color: #4F5C76;
+    border-radius: 1em;
+    width: 22em;
+    right: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10em;
+    padding-top: 1em;
+}
+
+
+section article{
+   background-color: #4F5C76;
+    border-radius: 1em;
+    width: 22em;
+    margin: auto;
+    margin-top: 3em;
+    padding-top: -2em;
+} 
+
+
+
+main section:nth-child(3) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+h1 {
+    font-size: 2.2em;
+    text-align: center;
+    font-family: inherit;
+    padding-top: 2em;
+    color: #06183d;
+
+
+
+
+}
+
+h2 {
+    font-size: 1.4em;
+    text-align: center;
+    font-family: inherit;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    margin-top: -1.5em;
+    color: #06183d;
+}
+
+
+h3 {
+
+    font-size: 1.4em;
+    text-align: center;
+    font-family: inherit;
+    border: 1em;
+    padding-bottom: 1em;
+    margin-left: 12.5%;
+    padding-top: 1em;
+    color: #06183d;
+    border-radius: 0.75em;
+    border-color: #fbdd0f;
+    background-color: #fbdd0f;
+    width: 75%;
+
+    webkit-box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+h4 {
+    font-size: 1.4em;
+    text-align: center;
+    font-family: inherit;
+    border: 1em;
+    padding-bottom: 1.75em;
+    margin-left: 12.5%;
+    padding-top: 3em;
+    color: #06183d;
+    border-radius: 0.75em;
+    border-color: #fbdd0f;
+    background-color: #fbdd0f;
+    width: 75%;
+
+    webkit-box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+
+h5 {
+    font-size: 1.4em;
+    margin: 0;
+    text-align: center;
+    font-family: inherit;
+    padding: 0.5em;
+    border: 1em;
+    color: #fbdd0f;
+    font-weight: 10;
+    border-radius: 0.75em;
+    border-color: #06183d;
+    background-color: #06183d;
+
+    webkit-box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 4px 17px -4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+p {
+    font-size: 1em;
+    margin: 0 0 0 1em;
+    text-align: left;
+    font-family: inherit;
+    color: #fbdd0f;
+    padding-top: 0.5em;
+    padding-top: 0;
+}
+
+
+
+span:nth-child(-n+3) {
+    color: #fbdd0f;
+}
+
+
+article div{
+    margin-left: 1em;
+}
+
+
+li:nth-child(2) a img {
+    position: absolute;
+    top: 0;
+    right: 3em;
+    width: 2.5em;
+    height: auto;
+    margin: 0.5em;
+}
+
+
+
+
+
+
+
+
+li:nth-child(3) a img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2.5em;
+    height: auto;
+    margin: 0.5em;
+}
+
+
+
+
+img[alt="downloadIcoon2"] {
+     width: 10%;
+    height: auto;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+}
+
+
+
+img[alt="verhaal: zombie"]{
+    padding: 1em;
+    width: 20em;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+img[alt="verhaal"]{
+   width:100%;
+    margin-top: -15em;
+    
+}
+
+#zombietext{
+    position: absolute;
+  top: 27.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    width: 90%;
+    font-family: base;
+    color: black;
+    font-size: 1.4em;
+    opacity: 0.9;
+    margin-top: -5em;
+}
+
+
+#zombietext1{
+    position: absolute;
+  top: 27.5%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+    width: 90%;
+    font-family: base;
+    color: black;
+    font-size: 1.4em;
+    opacity: 0.9;
+    margin-top: 0;
+}
+
+#zombietext2{
+    position: absolute;
+  top: 27.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    width: 90%;
+    font-family: base;
+    color: black;
+    font-size: 1.4em;
+    opacity: 0.9;
+    margin-top: 50em;
+}
+
+
+
+
+li:first-child a img {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+
+
+
+nav {
+    display: block;
+    position: fixed;
+    background-color: #06183d;
+    height: 4em;
+    width: 100%;
+    margin: -1.8em -1em;
+    right: 1em;
+    z-index: 9999;
+
+
+
+
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    font-size: 0.938em;
+    /* tekst in nav */
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+}
+
+ul {
+    /* ul heeft van zichzelf padding left*/
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.625em 0.938em;
+    padding-bottom: 0;
+}
+
+
+header input {
+    position: fixed;
+    float: left;
+    padding: 0.375em;
+    border: none;
+
+    font-size: 1.063em;
+    font-family: Avenir, Arial, sans-serif;
+
+
+    background-color: #06183d;
+    width: 110%;
+    margin: 2.05em -0.5em 2em;
+    z-index: 9999;
+
+
+}
+
+
+::placeholder {
+    color: #fbdd0f;
+}
+
+
+@media only screen and (max-width: 37.500em) {
+
+    header input {
+    float: left;
+    padding: 0.375em;
+    border: none;
+
+    font-size: 1.063em;
+    font-family: Avenir, Arial, sans-serif;
+    color: #06183d;
+
+
+    background-color:#fbdd0f ;
+    width: 110%;
+    margin: 2.05em -0.5em 2em;
+    z-index: 9999;
+  }
+    
+    
+
+  
+    }
+
+
+
+
+  @media only screen and (max-width: 37.500em) {
+   
+    ::placeholder {
+    color: #06183d;
+}
+    
+}
+    
+
+header input:hover {
+    background-color: #4F5C76;
+}
+
+
+
+button{
+    font-family: Avenir, Arial, sans-serif;
+    background-color: #06183d;
+    border-radius: 1em;
+    width: 30%;
+    position: fixed;
+    left: 50%;
+    margin-left: -15%;
+    padding: 0.5em;
+    font-size: 1.3em;
+    color: #fbdd0f;
+    bottom: 1em;
+
+}
+
+aside div:nth-child(2) {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 25%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+select {
+    width: 25em;
+    height: 3em;
+    font-family: inherit;
+    color: #fbdd0f;
+    background-color: #2d315c;
+    font-size: 1em;
+    text-align: center;
+     width: 10em;
+    position: relative;
+}
+
+input[value="Filters Toepassen"]{
+       width: 25em;
+    height: 3em;
+    font-family: inherit;
+    background-color:#fbdd0f;
+    color: #2d315c;
+    font-size: 1em;
+    text-align: center;
+     width: 10em;
+    position: relative;
+}
+
+
+
+
+
+
+aside div:nth-child(3) {
+    background-color: #06183d;
+    margin: auto;
+    padding: 1.250em;
+    border: 1em solid #888;
+    width: 80%;
+}
+
+
+aside div span {
+    color: #aaaaaa;
+    float: right;
+    font-size: 1.750em;
+    font-weight: bold;
+    padding-right: 1em;
+    margin-left: -1em;
+}
+
+aside div span:hover,
+aside div span:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+Fieldset {
+    color: #fbdd0f;
+    background-color: #06183d;
+    border: 0;
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    text-align: center;
+    color: #fbdd0f;
+}
+
+
+form {
+    background-color: #06183d;
+    margin: 1em;
+}
+
+
+
+article form{
+    display: block;
+    margin: auto;
+}
+
+
+
+#emailInlog, #passwordInlog{
+    height: 4em;
+    line-height: 2em;
+   
+    background-color: #2d315c;
+    width: 25.4em;
+    text-overflow: ellipsis;
+    padding-left: 1em;
+    color: #06183d;
+    font-family: inherit;
+    border: 0.5em;
+    border-color: darkblue;
+}
+
+
+#emailInlog, #passwordInlog:hover{
+    color: white;
+}
+
+
+#inloggenVoltooien{
+    display: block;
+    margin: auto;
+    background-color: #fbdd0f;
+    color: #06183d;
+    width: 15em;
+    height: 3em;
+    font-family: inherit;
+  
+}
+footer {
+    display: block;
+    margin-top: 5em;
+    text-align: center;
+}
+
+
+p:last-child {
+    color: #06183d;
+}
+
